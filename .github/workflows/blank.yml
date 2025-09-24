@@ -34,6 +34,7 @@ jobs:
 
       - name: Commit and push to private repo
         run: |
+          cd source
           git config user.name "[BOT] Gnoodd"
           git config user.email "Gnoodd@bot.com"
           
